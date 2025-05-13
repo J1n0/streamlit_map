@@ -1,0 +1,8 @@
+streamlit
+folium
+streamlit-folium
+pandas
+requests
+networkx
+osmnx
+openpyxl
