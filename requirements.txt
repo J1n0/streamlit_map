@@ -7,3 +7,4 @@ networkx
 osmnx
 openpyxl
 polyline
+scikit-learn
