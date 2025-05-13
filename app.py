@@ -216,7 +216,7 @@ if st.session_state["destination"]:
         
         
 # 지도 표시
-st_folium(map_object, width=750, height=550, returned_objects=[])
+st_folium(map_object, width="100%", height=600, returned_objects=[])
 
 st.subheader("병원 리스트 (거리순 정렬)")
 
