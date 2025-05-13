@@ -61,7 +61,7 @@ def haversine(lat1, lon1, lat2, lon2):
 # 공공 화장실 데이터
 @st.cache_data
 def load_toilet_data():
-    return pd.read_excel(pd.read_excel("data/public_toilets_without_seoul.xlsx")).dropna(subset=["WGS84위도", "WGS84경도"])
+    return pd.read_excel("data/public_toilets_without_seoul.xlsx").dropna(subset=["WGS84위도", "WGS84경도"])
 toilet_df = load_toilet_data()
 
 
