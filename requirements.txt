@@ -6,3 +6,4 @@ requests
 networkx
 osmnx
 openpyxl
+polyline
