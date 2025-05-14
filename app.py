@@ -29,7 +29,7 @@ session.mount("https://", TLSAdapter())
 
 # 페이지 기본 설정
 st.set_page_config(page_title="네비게이션", layout="wide")
-st.title("베리어프리 내비게이션 앱")
+st.title("베리어프리 네비게이션 앱")
 
 load_dotenv()
 GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
