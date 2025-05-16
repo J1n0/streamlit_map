@@ -64,7 +64,7 @@ def haversine(lat1, lon1, lat2, lon2):
 @st.cache_data
 def load_toilet_data():
     #return pd.read_excel("C:\\Users\\wlema\\wle\\data\\public_toilets_without_seoul.xlsx").dropna(subset=["WGS84위도", "WGS84경도"])
-    return pd.read_excel("data\\public_toilets_without_seoul.xlsx").dropna(subset=["WGS84위도", "WGS84경도"])
+    return pd.read_excel("data\public_toilets_without_seoul.xlsx").dropna(subset=["WGS84위도", "WGS84경도"])
 
 toilet_df = load_toilet_data()
 
@@ -72,7 +72,7 @@ toilet_df = load_toilet_data()
 @st.cache_data
 def load_hospital_data():
     #return pd.read_excel("C:\\Users\\wlema\\wle\\data\\filtered_by_coordinates.xlsx").dropna(subset=["좌표(Y)", "좌표(X)"])
-    return pd.read_excel("data\\filtered_by_coordinates.xlsx").dropna(subset=["좌표(Y)", "좌표(X)"])
+    return pd.read_excel("data\filtered_by_coordinates.xlsx").dropna(subset=["좌표(Y)", "좌표(X)"])
 
 hospital_df = load_hospital_data()
 
